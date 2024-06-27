@@ -1,5 +1,6 @@
 package com.example.loginapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -27,10 +28,19 @@ class MainActivity : AppCompatActivity() {
         loginBtn.setOnClickListener {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
+
             
             // Test it out
             Log.i("Test Credentials", "Username: $username, Password: $password")
 
+            // Simulate successful login (replace with actual authentication logic)
+
+            if (username.isNotEmpty() && password.isNotEmpty()) {
+                val intent = Intent(this, SecondScreen::class.java)
+                startActivity(intent)
+            } else {
+                // Show an error message (e.g., using a Toast)
+            }
         }
     }
 }
