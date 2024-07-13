@@ -88,18 +88,18 @@
                 android:id="@+id/facebook_icon"/>
             <!--GOOGLE-->
             <ImageView
+                android:id="@+id/google_icon"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="16dp"
-                android:src="@drawable/facebook_icon"
-                android:id="@+id/google_icon"/>
+                android:src="@drawable/Google_Icon" />
             <!--TWITTER-->
             <ImageView
+                android:id="@+id/twitter_icon"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="16dp"
-                android:src="@drawable/facebook_icon"
-                android:id="@+id/twitter_icon"/>
+                android:src="@drawable/X_Icon" />
 
 
         </LinearLayout>
