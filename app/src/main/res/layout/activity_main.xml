@@ -92,14 +92,14 @@
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="16dp"
-                android:src="@drawable/Google_Icon" />
+                android:src="@drawable/google_icon" />
             <!--TWITTER-->
             <ImageView
                 android:id="@+id/twitter_icon"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="16dp"
-                android:src="@drawable/X_Icon" />
+                android:src="@drawable/twitter_icon" />
 
 
         </LinearLayout>
